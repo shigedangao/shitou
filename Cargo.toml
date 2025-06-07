@@ -5,3 +5,8 @@ edition = "2024"
 
 [dependencies]
 adb_client = "2.1.13"
+regex = "1.11.1"
+uuid = { version = "1.17.0", features = ["v4"] }
+ocrs = "0.10.3"
+rten = "0.18.0"
+image = "0.25.6"

@@ -1,0 +1,19 @@
+[project]
+name = "match-face"
+version = "0.1.0"
+description = ""
+authors = [{ name = "shigedangao", email = "marc.inthaamnouay@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["deepface (>=0.0.93,<0.0.94)", "tf-keras (>=2.19.0,<3.0.0)"]
+
+[tool.poetry]
+packages = [{ include = "match_face", from = "src" }]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = "^3.12"
